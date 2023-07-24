@@ -1,0 +1,167 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.top {
+    background-color: #1f2937;
+    padding: 0px 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 8px 16px 0 0;
+    gap: 2rem;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.webdesc {
+    display: flex;
+    flex-direction: column;
+    gap: em;
+    justify-content: space-between;
+}
+
+.all {
+    display: flex;
+    gap: 2em;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+.all img {
+    width: 50%;
+    height: 30%;
+}
+
+img{
+    object-fit: cover;
+    object-position: left;
+}
+
+.webtopic {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.topicdesc {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.butt {
+    width: 100px;
+    background-color: #ed893d;
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    padding: 1em;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-bottom: 4em;
+}
+
+.cards img {
+    border: 3px solid #ed893d;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    text-align: center;
+    width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    padding: 72px 72px 0 72px;
+    font-size: 32px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 72px;
+    padding-right: 48px;
+}
+
+.call {
+    display: flex;
+    gap: 24px;
+    padding: 32px;
+    margin: 32px;
+    color: #e5e7eb;
+    justify-content: center;
+    background-color: #ed893d;
+}
+
+.topic {
+    font-weight: bold;
+}
+
+.explanation {
+    font-style: italic;
+}
+
+.butt {
+    width: 100px;
+    background-color: #ed893d;
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+footer {
+    color: #e5e7eb;
+    background-color: #1f2937;
+    text-align: center;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+}
